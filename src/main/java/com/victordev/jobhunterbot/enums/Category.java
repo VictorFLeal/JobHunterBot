@@ -1,4 +1,5 @@
 package com.victordev.jobhunterbot.enums;
 
-public class Category {
+public enum Category {
+    INTERNSHIP, TRAINEE, JOB
 }

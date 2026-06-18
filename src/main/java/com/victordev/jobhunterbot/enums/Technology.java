@@ -1,4 +1,5 @@
 package com.victordev.jobhunterbot.enums;
 
-public class Technology {
+public enum Technology {
+    JAVA, SPRING_BOOT, DOCKER, POSTGRESQL, AWS, SPRING_SECURITY, SPRING_DATA_JPA, KUBERNETES, MONGODB
 }

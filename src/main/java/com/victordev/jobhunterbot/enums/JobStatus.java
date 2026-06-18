@@ -1,4 +1,5 @@
 package com.victordev.jobhunterbot.enums;
 
-public class JobStatus {
+public enum JobStatus {
+    PENDING, SENT, FAILED, RETRYING
 }

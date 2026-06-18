@@ -1,4 +1,5 @@
 package com.victordev.jobhunterbot.enums;
 
-public class WorkMode {
+public enum WorkMode {
+    REMOTE, HYBRID, ONSITE
 }
