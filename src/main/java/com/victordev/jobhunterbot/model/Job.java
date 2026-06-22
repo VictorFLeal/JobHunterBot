@@ -31,7 +31,28 @@ public class Job {
     private Set<WorkMode> workModes;
     private Set<Technology> technologies;
 
-    // METODOSgit
+    public Job() {
+    }
+
+    public Job(UUID id, String company, String position, String url, String location, String description, String publishedText, LocalDateTime foundAt, LocalDateTime lastSeenAt, boolean active, JobStatus status, Category category, Seniority seniority, Set<WorkMode> workModes, Set<Technology> technologies) {
+        this.id = id;
+        this.company = company;
+        this.position = position;
+        this.url = url;
+        this.location = location;
+        this.description = description;
+        this.publishedText = publishedText;
+        this.foundAt = foundAt;
+        this.lastSeenAt = lastSeenAt;
+        this.active = active;
+        this.status = status;
+        this.category = category;
+        this.seniority = seniority;
+        this.workModes = workModes;
+        this.technologies = technologies;
+    }
+
+    // METODOS
 
     public UUID getId() {
         return id;
