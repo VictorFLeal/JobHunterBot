@@ -31,8 +31,7 @@ public class Job {
     private Set<WorkMode> workModes;
     private Set<Technology> technologies;
 
-    // METODOS
-
+    // METODOSgit
 
     public UUID getId() {
         return id;
