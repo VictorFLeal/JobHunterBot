@@ -1,3 +1,8 @@
 spring:
   application:
     name: jobhunterbot
+
+telegram:
+  bot:
+    token: 8614306994:AAGuf6QsRJK2o0sBJ32GTdYzL5RNT9OnFFs
+    chatId: 5158539764
