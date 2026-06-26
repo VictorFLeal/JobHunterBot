@@ -1,15 +1,22 @@
 package com.victordev.jobhunterbot.model;
 
 import com.victordev.jobhunterbot.enums.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 import java.time.LocalDateTime;
 import java.util.Set;
 import java.util.UUID;
 
+@Entity
 public class Job {
 
     // ATRIBUTOS
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     private String company;
